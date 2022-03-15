@@ -1,18 +1,105 @@
 body {
   margin: 0;
   font-family: "Inter";
+  font-size: smaller;
+}
+
+hr {
+  width: 700px;
+  margin: 10px auto;
+  border: 1px solid #F5F5F5;
+}
+
+h3 {
+  margin: 5px 0px;
+  padding:0px;
+}
+
+h1{
+  margin: 5px 0px;
+  padding:0px;
+}
+
+h4 {
+  margin: 4px 0px;
+}
+
+p {
+  margin: 10px 0px;
+  padding:0px;
+  line-height: 130%
+}
+
+
+.loc-and-url > p {
+  margin: 0px 35px;
+  padding:0px;
 }
 
 nav {
   display: flex;
-  align-items: center;
+  align-self: center;
+  font-size: larger;
   justify-content: center;
   background-color: #F55A5A;
-  padding: 20px;
+  height: 50px;
   color: white;
-  font-family: "Inter";
+}
+
+.navbar-text {
+  display: flex;
+  align-items: center;
 }
 
 .logo-icon {
-  font-size: 240px;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+.place-image {
+  width: 140px;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.loc-and-url {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  width: 550px;
+  margin: 40px auto;
+}
+
+.card-date {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.image-details {
+  padding-left: 20px;
+}
+
+.card-title {
+  font-size: 34px;
+}
+
+.googlemaps-url{
+  color: #918E9B;
+}
+
+.loc-logo {
+  font-size: medium;
+  padding-right: 5px;
+  color: #F55A5A;
+}
+
+.country {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 3px;
 }

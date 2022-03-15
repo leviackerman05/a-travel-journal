@@ -1,9 +1,10 @@
 const Navbar = () => {
   return (
     <nav>
-      <i className="logo-icon" class="fa fa-globe">
+      <div className="navbar-text">
+        <i class="fa fa-globe logo-icon"></i>
         <span> my travel journal.</span>
-      </i>
+      </div>
     </nav>
   );
 };
